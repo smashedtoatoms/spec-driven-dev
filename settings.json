@@ -1,0 +1,15 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(find:*)",
+      "Bash(grep:*)",
+      "Bash(cargo check:*)",
+      "Bash(cargo test:*)",
+      "Bash(cargo doc:*)",
+      "Bash(npm run cdk synth:*)",
+      "Bash(cargo build:*)",
+      "Bash(aws dynamodb scan:*)"
+    ],
+    "deny": []
+  }
+}
