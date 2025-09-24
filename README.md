@@ -2,11 +2,16 @@
 
 This is basically my implementation of Kiro's [spec-driven
 development](https://kiro.dev/docs/specs/concepts/) done in a way that doesn't
-require me to switch editors.  I use it with Claude Code, but I suspect as
-llm-based coding tools mature they will converge on common practices.  I intend
-to modify this as that occurs assuming that coding agent preference will be much
-like editor preference is.  I want this to work in a way that lets me switch out
-my underlying agent if I want to experiment or permanently switch.
+require me to switch editors.  It was basically stolen from [Ash
+Explained](https://ashexplained.com/kiro-ide-workflow-claude-code-slash-commands/),
+but with slightly more generic artifact generation in case Clause Code doesn't
+work out.
+
+I use it with Claude Code, but I suspect as llm-based coding tools mature they
+will converge on common practices.  I intend to modify this as that occurs
+assuming that coding agent preference will be much like editor preference is.  I
+want this to work in a way that lets me switch out my underlying agent if I want
+to experiment or permanently switch.
 
 If you want to use a version of this that is more full-fledged but also more
 opinionated, check out [https://github.com/github/spec-kit](spec-kit).  I am not
