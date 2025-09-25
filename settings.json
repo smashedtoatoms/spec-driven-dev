@@ -3,6 +3,7 @@
     "allow": [
       "Bash(find:*)",
       "Bash(grep:*)",
+      "Bash(mkdir:*)",
       "Bash(cargo check:*)",
       "Bash(cargo test:*)",
       "Bash(cargo doc:*)",

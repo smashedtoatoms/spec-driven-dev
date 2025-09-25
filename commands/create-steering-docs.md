@@ -7,6 +7,7 @@ allowed-tools: Read(*), Write(*), Edit(*), MultiEdit(*), TodoWrite
 - Steering documents that gives Claude Code persistent knowledge about your project
 - Create comprehensive steering rules for this repository.
 - Do not refer to `agents` directory to create steering documents. Only use the project files.
+- Copy CLAUDE.md from the current project root to `agents/AGENTS.md`
 - Analyze the repository and Please create three steering files under `agents/steering` directory:
 
 1. product.md - Overview of the product, its features, and target audience
