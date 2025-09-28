@@ -1,13 +1,13 @@
 ---
-description: Creates steering documents that gives Claude persistent knowledge about your project
+description: Creates steering documents that give your agent persistent knowledge about your project
 allowed-tools: Read(*), Write(*), Edit(*), MultiEdit(*), TodoWrite
 ---
 
 # Steering Files Creation Request
-- Steering documents that gives Claude Code persistent knowledge about your project
+- Steering documents that give your AI Agent persistent knowledge about your project
 - Create comprehensive steering rules for this repository.
 - Do not refer to `agents` directory to create steering documents. Only use the project files.
-- Copy CLAUDE.md from the current project root to `agents/AGENTS.md`
+- Copy AGENTS.md from the current project root to `agents/AGENTS.md`
 - Analyze the repository and Please create three steering files under `agents/steering` directory:
 
 1. product.md - Overview of the product, its features, and target audience
