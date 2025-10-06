@@ -4,7 +4,7 @@ This is basically my implementation of Kiro's [spec-driven
 development](https://kiro.dev/docs/specs/concepts/) done in a way that doesn't
 require me to switch editors.  It was basically stolen from [Ash
 Explained](https://ashexplained.com/kiro-ide-workflow-claude-code-slash-commands/),
-but with slightly more generic artifact generation in case Clause Code doesn't
+but with slightly more generic artifact generation in case Claude Code doesn't
 work out.
 
 I use it with Claude Code, but I suspect that as LLM-based coding tools mature, they
